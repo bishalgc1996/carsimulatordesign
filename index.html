@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Car Simulation</title>
+  <link rel="stylesheet" href="simulation.css" />
+ </head>
+ <body>
+  <div class="road-container">
+   <object type="image/svg+xml" data="car.svg" id="car-object"></object>
+  </div>
+  <div class="controls">
+   <button id="decreaseSpeed">Decrease Speed</button>
+   <button id="increaseSpeed">Increase Speed</button>
+   <div class="speedometer">Speed: <span id="speed">0</span> km/h</div>
+  </div>
+
+  <script src="simulation.js"></script>
+ </body>
+</html>
